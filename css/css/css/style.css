@@ -1,0 +1,88 @@
+
+p {
+    overflow-wrap: break-word;
+}
+
+body {
+    box-sizing: border-box;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #770707;
+    font-size: clamp(2.25rem, 6vw, 4.0625rem);
+    text-align: center;
+    font-family: cursive;
+}
+
+h2 {
+    font-size: clamp(1.75rem, 4vw, 3rem);
+    font-style: italic;
+}
+
+p {
+    font-size: clamp(1.125rem, 2.5vw, 1.8rem);
+    font-family: cursive;
+    line-height: 1.6;
+}
+
+strong {
+    color: #770707;
+}
+
+.titulo-rojo {
+    font-family: cursive;
+    color: #770707;
+}
+
+.titulo-azul {
+    font-family: cursive;
+    color: rgb(32, 53, 212);
+}
+
+.titulo2Rain {
+    color: rgb(32, 53, 212);
+}
+
+.foto-rain {
+    width: min(100%, 400px);
+    height: auto;
+}
+
+.titulo-azul-oscuro {
+    font-family: cursive;
+    color: cyan;
+}
+
+.p-fresh {
+    font-family: cursive;
+}
+
+.Fresh {
+    color: cyan;
+}
+
+.parrafo-final {
+    font-family: cursive;
+    color: #0b0606;
+    font-size: clamp(1.125rem, 2vw, 1.1875rem);
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 1rem;
+    }
+
+    p {
+        line-height: 1.5;
+    }
+}
